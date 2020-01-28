@@ -37,4 +37,12 @@ h2 {
     font-size: 20px;
 }
 
+a {
+    color: blue;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
 
