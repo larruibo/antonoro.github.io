@@ -16,3 +16,4 @@ Github page: https://github.com/antonoro.
 Link to the website : https://antonoro.github.io/
 
 ## 4: Preview of website (Screenshot)
+![Screenshot of website](images/Screenshot.png?raw=true "Screenshot of website")
