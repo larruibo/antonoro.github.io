@@ -15,7 +15,7 @@ Github page: https://github.com/antonoro.
 Link to the website : https://antonoro.github.io/
 
 ## 4: Preview of website (Screenshot)
-![Screenshot of website](images/Screenshot.png?raw=true "Screenshot of website")
+![Screenshot of website](images/Screenshot_Proj1_AntoineNoreau.png?raw=true "Screenshot of website")
 
 ## 5: License
 This project is licensed under the terms of the MIT License.
