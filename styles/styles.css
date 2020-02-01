@@ -16,7 +16,9 @@ body {
     }
 
 .Project_page_images {
+    float: left;
     max-width:50%;
+    margin-right: 20px;
 }
 
 .image-txt-container{
