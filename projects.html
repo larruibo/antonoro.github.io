@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/styles.css">
-        <title>Antoine Noreau's CV</title>
+        <title>Projects - Antoine Noreau</title>
     </head>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,20 +38,111 @@
         
     </header>
 
-
     <body>
-        <div class="image-txt-container">
-            <div>
-                <p>    
-                    Hi, this is my webpage! Under construction
-                </p>
-               
-                
-                    
-                
+
+        <h3>
+            University Projects
+        </h3>
+
+        <div id="accordion1">
+            <div class="card">
+                <div class="card-header" id="heading1">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Second-Year Project - Automatic flow control valve (Cypress PSoC 5LP)
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="heading1" data-parent="#accordion1">
+                    <div class="card-body">
+                        <img class="Project_page_images" src="images/Demo_2Project.png" alt="Second-Year Project">
+                    </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading2">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Third-Year Project - Solar Sterilizing Autoclave (Cypress PSoC 5LP)
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="heading2" data-parent="#accordion1">
+                    <div class="card-body">
+                        <img class="Project_page_images" src="images/thirdyearproject.png" alt="Third-Year Project">
+                    </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading3">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Fourth-Year Project - Implantable 7T MRI antenna for in-vivo brain imaging
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="heading3" data-parent="#accordion1">
+                    <div class="card-body">
+                        <img class="Project_page_images" src="images/Antenna_4Project.png" alt="Fourth-Year Project">
+                    </div>
+                  </div>
             </div>
         </div>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <h3>
+            Engineering Internships
+        </h3>
+
+        <div id="accordion2">
+            <div class="card">
+                <div class="card-header" id="heading4">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Summer 2018 - Software Development and Medical Equipment Management (Cap-Haitien, Haiti)
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="heading4" data-parent="#accordion2">
+                    <div class="card-body">
+                        <img class="Project_page_images" src="images/Internship1_Haiti.png" alt="First Internship, Haiti Hospital">
+                    </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading5">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Summer 2019 - Embedded Software Development at Rheolution Inc. (Montreal, Canada)
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="heading5" data-parent="#accordion2">
+                    <div class="card-body">
+                        <img src="images/elastosens-bio_Rheolution.png" alt="Rheolution project">
+                    </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="heading6">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Fall 2019 - System Design Intern at Zimmer Biomet (Montreal, Canada)
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="heading6" data-parent="#accordion1">
+                    <div class="card-body">
+                        <img class="Project_page_images" src="images/Zimmer_Logo.png" alt="Zimmer Biomet Logo">
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </body>
